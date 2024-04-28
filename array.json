@@ -1,0 +1,4706 @@
+{
+  "departures": [
+    {
+      "tripId": "1|299061|2|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T11:26:00+01:00",
+      "plannedWhen": "2024-03-27T11:26:00+01:00",
+      "delay": 0,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": "prognosed",
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11612",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|61561|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T11:29:00+01:00",
+      "plannedWhen": "2024-03-27T11:29:00+01:00",
+      "delay": 0,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": "prognosed",
+      "direction": "Scharbeutz Bahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7207",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "702889",
+        "name": "Bahnhof, Scharbeutz",
+        "location": {
+          "type": "location",
+          "id": "702889",
+          "latitude": 54.01992,
+          "longitude": 10.745579
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        },
+        "station": {
+          "type": "station",
+          "id": "8005321",
+          "name": "Scharbeutz",
+          "location": {
+            "type": "location",
+            "id": "8005321",
+            "latitude": 54.01876,
+            "longitude": 10.745714
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": true
+          }
+        }
+      },
+      "currentTripPosition": {
+        "type": "location",
+        "latitude": 53.963414,
+        "longitude": 10.864156
+      }
+    },
+    {
+      "tripId": "1|61485|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T11:33:00+01:00",
+      "plannedWhen": "2024-03-27T11:33:00+01:00",
+      "delay": 0,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": "prognosed",
+      "direction": "Lübeck ZOB/Hauptbahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7163",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700364",
+        "name": "ZOB/Hauptbahnhof, Lübeck",
+        "location": {
+          "type": "location",
+          "id": "700364",
+          "latitude": 53.865962,
+          "longitude": 10.67078
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8000237",
+          "name": "Lübeck Hbf",
+          "location": {
+            "type": "location",
+            "id": "8000237",
+            "latitude": 53.86767,
+            "longitude": 10.669737
+          },
+          "products": {
+            "nationalExpress": true,
+            "national": true,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|299062|4|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T11:35:00+01:00",
+      "plannedWhen": "2024-03-27T11:35:00+01:00",
+      "delay": 0,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": "prognosed",
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11617",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|48655|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T11:53:00+01:00",
+      "plannedWhen": "2024-03-27T11:53:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Hemmelsdorf Alte Landstraße, Timmendorfer Strand",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-ak-501",
+        "fahrtNr": "22734",
+        "name": "Bus 501",
+        "public": true,
+        "adminCode": "ak_AK_",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "autokraft",
+          "name": "Autokraft"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "699784",
+        "name": "Hemmelsdorf Alte Landstraße, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "699784",
+          "latitude": 53.967513,
+          "longitude": 10.767117
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": false,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299061|3|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T12:26:00+01:00",
+      "plannedWhen": "2024-03-27T12:26:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11614",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|61561|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T12:29:00+01:00",
+      "plannedWhen": "2024-03-27T12:29:00+01:00",
+      "delay": 0,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": "prognosed",
+      "direction": "Scharbeutz Bahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7206",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "702889",
+        "name": "Bahnhof, Scharbeutz",
+        "location": {
+          "type": "location",
+          "id": "702889",
+          "latitude": 54.01992,
+          "longitude": 10.745579
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        },
+        "station": {
+          "type": "station",
+          "id": "8005321",
+          "name": "Scharbeutz",
+          "location": {
+            "type": "location",
+            "id": "8005321",
+            "latitude": 54.01876,
+            "longitude": 10.745714
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": true
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|61485|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T12:33:00+01:00",
+      "plannedWhen": "2024-03-27T12:33:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Lübeck ZOB/Hauptbahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7162",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700364",
+        "name": "ZOB/Hauptbahnhof, Lübeck",
+        "location": {
+          "type": "location",
+          "id": "700364",
+          "latitude": 53.865962,
+          "longitude": 10.67078
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8000237",
+          "name": "Lübeck Hbf",
+          "location": {
+            "type": "location",
+            "id": "8000237",
+            "latitude": 53.86767,
+            "longitude": 10.669737
+          },
+          "products": {
+            "nationalExpress": true,
+            "national": true,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|299062|5|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T12:35:00+01:00",
+      "plannedWhen": "2024-03-27T12:35:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11619",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|48664|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T13:05:00+01:00",
+      "plannedWhen": "2024-03-27T13:05:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Hemmelsdorf Alte Landstraße, Timmendorfer Strand",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-ak-501",
+        "fahrtNr": "22742",
+        "name": "Bus 501",
+        "public": true,
+        "adminCode": "ak_AK_",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "autokraft",
+          "name": "Autokraft"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "699784",
+        "name": "Hemmelsdorf Alte Landstraße, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "699784",
+          "latitude": 53.967513,
+          "longitude": 10.767117
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": false,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299061|4|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T13:26:00+01:00",
+      "plannedWhen": "2024-03-27T13:26:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11616",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|61561|2|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T13:29:00+01:00",
+      "plannedWhen": "2024-03-27T13:29:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Scharbeutz Bahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7205",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "702889",
+        "name": "Bahnhof, Scharbeutz",
+        "location": {
+          "type": "location",
+          "id": "702889",
+          "latitude": 54.01992,
+          "longitude": 10.745579
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        },
+        "station": {
+          "type": "station",
+          "id": "8005321",
+          "name": "Scharbeutz",
+          "location": {
+            "type": "location",
+            "id": "8005321",
+            "latitude": 54.01876,
+            "longitude": 10.745714
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": true
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|61485|2|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T13:33:00+01:00",
+      "plannedWhen": "2024-03-27T13:33:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Lübeck ZOB/Hauptbahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7161",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700364",
+        "name": "ZOB/Hauptbahnhof, Lübeck",
+        "location": {
+          "type": "location",
+          "id": "700364",
+          "latitude": 53.865962,
+          "longitude": 10.67078
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8000237",
+          "name": "Lübeck Hbf",
+          "location": {
+            "type": "location",
+            "id": "8000237",
+            "latitude": 53.86767,
+            "longitude": 10.669737
+          },
+          "products": {
+            "nationalExpress": true,
+            "national": true,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|299062|6|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T13:35:00+01:00",
+      "plannedWhen": "2024-03-27T13:35:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11621",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|48666|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T13:51:00+01:00",
+      "plannedWhen": "2024-03-27T13:51:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Westring/Grundschule, Ratekau",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-ak-501",
+        "fahrtNr": "22744",
+        "name": "Bus 501",
+        "public": true,
+        "adminCode": "ak_AK_",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "autokraft",
+          "name": "Autokraft"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700084",
+        "name": "Westring/Grundschule, Ratekau",
+        "location": {
+          "type": "location",
+          "id": "700084",
+          "latitude": 53.943817,
+          "longitude": 10.731008
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": false,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299061|5|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T14:26:00+01:00",
+      "plannedWhen": "2024-03-27T14:26:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11618",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|48667|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T14:28:00+01:00",
+      "plannedWhen": "2024-03-27T14:28:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Westring/Grundschule, Ratekau",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-ak-501",
+        "fahrtNr": "22745",
+        "name": "Bus 501",
+        "public": true,
+        "adminCode": "ak_AK_",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "autokraft",
+          "name": "Autokraft"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700084",
+        "name": "Westring/Grundschule, Ratekau",
+        "location": {
+          "type": "location",
+          "id": "700084",
+          "latitude": 53.943817,
+          "longitude": 10.731008
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": false,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|61557|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T14:29:00+01:00",
+      "plannedWhen": "2024-03-27T14:29:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Scharbeutz Bahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7204",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "702889",
+        "name": "Bahnhof, Scharbeutz",
+        "location": {
+          "type": "location",
+          "id": "702889",
+          "latitude": 54.01992,
+          "longitude": 10.745579
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        },
+        "station": {
+          "type": "station",
+          "id": "8005321",
+          "name": "Scharbeutz",
+          "location": {
+            "type": "location",
+            "id": "8005321",
+            "latitude": 54.01876,
+            "longitude": 10.745714
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": true
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|61485|3|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T14:33:00+01:00",
+      "plannedWhen": "2024-03-27T14:33:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Lübeck ZOB/Hauptbahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7160",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700364",
+        "name": "ZOB/Hauptbahnhof, Lübeck",
+        "location": {
+          "type": "location",
+          "id": "700364",
+          "latitude": 53.865962,
+          "longitude": 10.67078
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8000237",
+          "name": "Lübeck Hbf",
+          "location": {
+            "type": "location",
+            "id": "8000237",
+            "latitude": 53.86767,
+            "longitude": 10.669737
+          },
+          "products": {
+            "nationalExpress": true,
+            "national": true,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|299062|7|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T14:35:00+01:00",
+      "plannedWhen": "2024-03-27T14:35:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11623",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299110|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T14:56:00+01:00",
+      "plannedWhen": "2024-03-27T14:56:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11668",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|48657|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T15:04:00+01:00",
+      "plannedWhen": "2024-03-27T15:04:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Hemmelsdorf Alte Landstraße, Timmendorfer Strand",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-ak-501",
+        "fahrtNr": "22737",
+        "name": "Bus 501",
+        "public": true,
+        "adminCode": "ak_AK_",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "autokraft",
+          "name": "Autokraft"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "699784",
+        "name": "Hemmelsdorf Alte Landstraße, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "699784",
+          "latitude": 53.967513,
+          "longitude": 10.767117
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": false,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|48648|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T15:25:00+01:00",
+      "plannedWhen": "2024-03-27T15:25:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "ZOB, Timmendorfer Strand",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-ak-501",
+        "fahrtNr": "22729",
+        "name": "Bus 501",
+        "public": true,
+        "adminCode": "ak_AK_",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "autokraft",
+          "name": "Autokraft"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700259",
+        "name": "ZOB, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700259",
+          "latitude": 53.994858,
+          "longitude": 10.781788
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": false,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|299061|6|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T15:26:00+01:00",
+      "plannedWhen": "2024-03-27T15:26:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11620",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|61557|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T15:29:00+01:00",
+      "plannedWhen": "2024-03-27T15:29:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Scharbeutz Bahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7203",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "702889",
+        "name": "Bahnhof, Scharbeutz",
+        "location": {
+          "type": "location",
+          "id": "702889",
+          "latitude": 54.01992,
+          "longitude": 10.745579
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        },
+        "station": {
+          "type": "station",
+          "id": "8005321",
+          "name": "Scharbeutz",
+          "location": {
+            "type": "location",
+            "id": "8005321",
+            "latitude": 54.01876,
+            "longitude": 10.745714
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": true
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|61474|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T15:33:00+01:00",
+      "plannedWhen": "2024-03-27T15:33:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Lübeck ZOB/Hauptbahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7159",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700364",
+        "name": "ZOB/Hauptbahnhof, Lübeck",
+        "location": {
+          "type": "location",
+          "id": "700364",
+          "latitude": 53.865962,
+          "longitude": 10.67078
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8000237",
+          "name": "Lübeck Hbf",
+          "location": {
+            "type": "location",
+            "id": "8000237",
+            "latitude": 53.86767,
+            "longitude": 10.669737
+          },
+          "products": {
+            "nationalExpress": true,
+            "national": true,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|299062|8|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T15:35:00+01:00",
+      "plannedWhen": "2024-03-27T15:35:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11625",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299110|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T15:56:00+01:00",
+      "plannedWhen": "2024-03-27T15:56:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11670",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|299112|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T16:05:00+01:00",
+      "plannedWhen": "2024-03-27T16:05:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11677",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299061|7|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T16:26:00+01:00",
+      "plannedWhen": "2024-03-27T16:26:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11622",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|61554|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T16:29:00+01:00",
+      "plannedWhen": "2024-03-27T16:29:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Scharbeutz Bahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7202",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "702889",
+        "name": "Bahnhof, Scharbeutz",
+        "location": {
+          "type": "location",
+          "id": "702889",
+          "latitude": 54.01992,
+          "longitude": 10.745579
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        },
+        "station": {
+          "type": "station",
+          "id": "8005321",
+          "name": "Scharbeutz",
+          "location": {
+            "type": "location",
+            "id": "8005321",
+            "latitude": 54.01876,
+            "longitude": 10.745714
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": true
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|61474|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T16:33:00+01:00",
+      "plannedWhen": "2024-03-27T16:33:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Lübeck ZOB/Hauptbahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7158",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700364",
+        "name": "ZOB/Hauptbahnhof, Lübeck",
+        "location": {
+          "type": "location",
+          "id": "700364",
+          "latitude": 53.865962,
+          "longitude": 10.67078
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8000237",
+          "name": "Lübeck Hbf",
+          "location": {
+            "type": "location",
+            "id": "8000237",
+            "latitude": 53.86767,
+            "longitude": 10.669737
+          },
+          "products": {
+            "nationalExpress": true,
+            "national": true,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|299062|9|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T16:35:00+01:00",
+      "plannedWhen": "2024-03-27T16:35:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11627",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299110|2|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T16:56:00+01:00",
+      "plannedWhen": "2024-03-27T16:56:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11672",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|299112|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T17:05:00+01:00",
+      "plannedWhen": "2024-03-27T17:05:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11679",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299061|8|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T17:26:00+01:00",
+      "plannedWhen": "2024-03-27T17:26:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11624",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|61554|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T17:29:00+01:00",
+      "plannedWhen": "2024-03-27T17:29:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Scharbeutz Bahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7201",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "702889",
+        "name": "Bahnhof, Scharbeutz",
+        "location": {
+          "type": "location",
+          "id": "702889",
+          "latitude": 54.01992,
+          "longitude": 10.745579
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        },
+        "station": {
+          "type": "station",
+          "id": "8005321",
+          "name": "Scharbeutz",
+          "location": {
+            "type": "location",
+            "id": "8005321",
+            "latitude": 54.01876,
+            "longitude": 10.745714
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": true
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|61472|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T17:33:00+01:00",
+      "plannedWhen": "2024-03-27T17:33:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Lübeck ZOB/Hauptbahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7157",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700364",
+        "name": "ZOB/Hauptbahnhof, Lübeck",
+        "location": {
+          "type": "location",
+          "id": "700364",
+          "latitude": 53.865962,
+          "longitude": 10.67078
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8000237",
+          "name": "Lübeck Hbf",
+          "location": {
+            "type": "location",
+            "id": "8000237",
+            "latitude": 53.86767,
+            "longitude": 10.669737
+          },
+          "products": {
+            "nationalExpress": true,
+            "national": true,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|299062|10|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T17:35:00+01:00",
+      "plannedWhen": "2024-03-27T17:35:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11629",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299110|3|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T17:56:00+01:00",
+      "plannedWhen": "2024-03-27T17:56:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11674",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|299112|2|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T18:05:00+01:00",
+      "plannedWhen": "2024-03-27T18:05:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11681",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299061|9|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T18:26:00+01:00",
+      "plannedWhen": "2024-03-27T18:26:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11626",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|61554|2|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T18:29:00+01:00",
+      "plannedWhen": "2024-03-27T18:29:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Scharbeutz Bahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7200",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "702889",
+        "name": "Bahnhof, Scharbeutz",
+        "location": {
+          "type": "location",
+          "id": "702889",
+          "latitude": 54.01992,
+          "longitude": 10.745579
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        },
+        "station": {
+          "type": "station",
+          "id": "8005321",
+          "name": "Scharbeutz",
+          "location": {
+            "type": "location",
+            "id": "8005321",
+            "latitude": 54.01876,
+            "longitude": 10.745714
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": true
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|61471|0|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T18:33:00+01:00",
+      "plannedWhen": "2024-03-27T18:33:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Lübeck ZOB/Hauptbahnhof",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-svl-40",
+        "fahrtNr": "7156",
+        "name": "Bus 40",
+        "public": true,
+        "adminCode": "ak_SVL",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "nahreisezug",
+          "name": "Nahreisezug"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700364",
+        "name": "ZOB/Hauptbahnhof, Lübeck",
+        "location": {
+          "type": "location",
+          "id": "700364",
+          "latitude": 53.865962,
+          "longitude": 10.67078
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8000237",
+          "name": "Lübeck Hbf",
+          "location": {
+            "type": "location",
+            "id": "8000237",
+            "latitude": 53.86767,
+            "longitude": 10.669737
+          },
+          "products": {
+            "nationalExpress": true,
+            "national": true,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      }
+    },
+    {
+      "tripId": "1|299062|11|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T18:35:00+01:00",
+      "plannedWhen": "2024-03-27T18:35:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11631",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299110|4|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T18:56:00+01:00",
+      "plannedWhen": "2024-03-27T18:56:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11676",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|48657|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T18:59:00+01:00",
+      "plannedWhen": "2024-03-27T18:59:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "Hemmelsdorf Alte Landstraße, Timmendorfer Strand",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-ak-501",
+        "fahrtNr": "22738",
+        "name": "Bus 501",
+        "public": true,
+        "adminCode": "ak_AK_",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "autokraft",
+          "name": "Autokraft"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "699784",
+        "name": "Hemmelsdorf Alte Landstraße, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "699784",
+          "latitude": 53.967513,
+          "longitude": 10.767117
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": false,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|299112|3|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T19:05:00+01:00",
+      "plannedWhen": "2024-03-27T19:05:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Lübeck Hbf",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11683",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8000237",
+        "name": "Lübeck Hbf",
+        "location": {
+          "type": "location",
+          "id": "8000237",
+          "latitude": 53.86767,
+          "longitude": 10.669737
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      }
+    },
+    {
+      "tripId": "1|48648|1|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "700257",
+        "name": "Bahnhof, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700257",
+          "latitude": 53.994535,
+          "longitude": 10.762893
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        },
+        "station": {
+          "type": "station",
+          "id": "8005874",
+          "name": "Timmendorfer Strand",
+          "location": {
+            "type": "location",
+            "id": "8005874",
+            "latitude": 53.994346,
+            "longitude": 10.762254
+          },
+          "products": {
+            "nationalExpress": false,
+            "national": false,
+            "regionalExpress": false,
+            "regional": true,
+            "suburban": false,
+            "bus": true,
+            "ferry": false,
+            "subway": false,
+            "tram": false,
+            "taxi": false
+          }
+        }
+      },
+      "when": "2024-03-27T19:15:00+01:00",
+      "plannedWhen": "2024-03-27T19:15:00+01:00",
+      "delay": null,
+      "platform": null,
+      "plannedPlatform": null,
+      "prognosisType": null,
+      "direction": "ZOB, Timmendorfer Strand",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "5-ak-ak-501",
+        "fahrtNr": "22730",
+        "name": "Bus 501",
+        "public": true,
+        "adminCode": "ak_AK_",
+        "productName": "Bus",
+        "mode": "bus",
+        "product": "bus",
+        "operator": {
+          "type": "operator",
+          "id": "autokraft",
+          "name": "Autokraft"
+        }
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "700259",
+        "name": "ZOB, Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "700259",
+          "latitude": 53.994858,
+          "longitude": 10.781788
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": false,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    },
+    {
+      "tripId": "1|299061|10|80|27032024",
+      "stop": {
+        "type": "stop",
+        "id": "8005874",
+        "name": "Timmendorfer Strand",
+        "location": {
+          "type": "location",
+          "id": "8005874",
+          "latitude": 53.994346,
+          "longitude": 10.762254
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "when": "2024-03-27T19:26:00+01:00",
+      "plannedWhen": "2024-03-27T19:26:00+01:00",
+      "delay": null,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": null,
+      "direction": "Neustadt(Holst)",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "rb-85",
+        "fahrtNr": "11628",
+        "name": "RB 85",
+        "public": true,
+        "adminCode": "800292",
+        "productName": "RB",
+        "mode": "train",
+        "product": "regional",
+        "operator": {
+          "type": "operator",
+          "id": "db-regio-ag-nord",
+          "name": "DB Regio AG Nord"
+        },
+        "additionalName": "RB 85"
+      },
+      "remarks": [],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "8004327",
+        "name": "Neustadt(Holst)",
+        "location": {
+          "type": "location",
+          "id": "8004327",
+          "latitude": 54.103825,
+          "longitude": 10.807973
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExpress": false,
+          "regional": true,
+          "suburban": false,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": true
+        }
+      }
+    }
+  ],
+  "realtimeDataUpdatedAt": 1711533375
+}
